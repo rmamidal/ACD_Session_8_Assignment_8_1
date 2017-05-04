@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Html5 registration and student login form | Session 8 Assignment 8.1</title>
+    <!-- Including javascript file-->
+    <script src='app.js'></script>
+  </head>
+  <body>
+  <div id='wrapper'>
+  	<h1>Enter the system</h1>
+  	<p>It is necessary to login in your account in order to signup for a course.</p>
+  	<section id='register'>
+	  	<form name="frmRegister">
+  		<h2>ARE YOU NEW?<a href='register.html'>REGISTER</a></h2>
+  		<input type="text" name="txtUserName" placeholder="User Name"/>
+  		<input type="email" name="txtEmail" placeholder="Email"/>
+  		<input type="password" name="txtPassword" placeholder="Password"/>
+  		<input type="password" name="txtConfirmPwd" placeholder="Confirm Password"/>
+  		<input type="submit" name="register" value="Register"/>
+  		</form>
+  	</section>
+  	<section id="login">
+  		<form name="frmRegister">
+  		<h2>ALREADY A STUDENR? LOGIN</h2>
+  		<input type="text" name="txtStUserName" placeholder="User Name"/>
+  		<input type="password" name="txtStPassword" placeholder="Password"/>
+  		<div class="btnWraper">
+  			<label><input type="checkbox" name="remebers"> Remember me?</label>
+  			<input type="submit" name="login" value="Login"/>
+  		</div>
+  		<a href="forgotpwd.html">Forgot Password?</a>
+  		</form>
+  	</section>
+  </div>
+  </body>
+</html>
