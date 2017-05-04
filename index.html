@@ -4,6 +4,7 @@
     <title>Html5 registration and student login form | Session 8 Assignment 8.1</title>
     <!-- Including javascript file-->
     <script src='app.js'></script>
+    <link href="style.css" rel="stylesheet"/>
   </head>
   <body>
   <div id='wrapper'>
@@ -11,22 +12,22 @@
   	<p>It is necessary to login in your account in order to signup for a course.</p>
   	<section id='register'>
 	  	<form name="frmRegister">
-  		<h2>ARE YOU NEW?<a href='register.html'>REGISTER</a></h2>
+  		<h2>ARE YOU NEW? <a href='register.html'> REGISTER</a></h2>
   		<input type="text" name="txtUserName" placeholder="User Name"/>
   		<input type="email" name="txtEmail" placeholder="Email"/>
   		<input type="password" name="txtPassword" placeholder="Password"/>
   		<input type="password" name="txtConfirmPwd" placeholder="Confirm Password"/>
-  		<input type="submit" name="register" value="Register"/>
+  		<input type="submit" name="register" value="Register" class="btnregister"/>
   		</form>
   	</section>
   	<section id="login">
   		<form name="frmRegister">
-  		<h2>ALREADY A STUDENR? LOGIN</h2>
+  		<h2>ALREADY A STUDENT? LOGIN</h2>
   		<input type="text" name="txtStUserName" placeholder="User Name"/>
   		<input type="password" name="txtStPassword" placeholder="Password"/>
   		<div class="btnWraper">
-  			<label><input type="checkbox" name="remebers"> Remember me?</label>
-  			<input type="submit" name="login" value="Login"/>
+  			<label><input type="checkbox" name="remember" class="remember"> Remember me?</label>
+  			<input type="submit" name="login" value="Login" class="btnlogin"/>
   		</div>
   		<a href="forgotpwd.html">Forgot Password?</a>
   		</form>
