@@ -1,3 +1,4 @@
+// Outer wrapper styles.
 #wrapper {
   width: 600px;
   margin: 0 auto;
@@ -16,6 +17,7 @@ p {
   color: darkgray;
 }
 
+// Registration section styles.
 #register,
 #login {
   font-size: 14px;
@@ -46,10 +48,12 @@ input {
   margin: 0 0 15px 0;
   font-size: 11px;
 }
+
 input:focus {
   outline-color: red;
 }
 
+// Login section styles.
 #login {
   background: #3b5998;
   color: white;
